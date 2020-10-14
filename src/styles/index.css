@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: serif;
+  background-color: rgba(211, 211, 216, 0.25);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: serif;
+}
+
