@@ -19,8 +19,9 @@ const MailMeForm = () => (
             </p>
         </div>
 
-        <input className="mailme-check" type="checkbox"/>
         <label className="mailme-check-label">
+            <input className="mailme-check" type="checkbox"/>
+
             Я принимаю условия Пользовательского соглашения
         </label>
     </div>

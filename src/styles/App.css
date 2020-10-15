@@ -9,8 +9,6 @@ root{
   flex: 0 1 1100px;
 }
 
-/* DESKTOP @media (min-width: 770px) {*/
-
   h1 {
     font-size: 120px;
     font-family: Serif-bold, serif;
@@ -19,25 +17,29 @@ root{
   }
   h2 {
     font-size: 68px;
+    font-family: Serif-bold, serif;
   }
   h3 {
     font-size: 42px;
+    font-family: Serif-bold, serif;
   }
   .h-intro {
     font-size: 40px;
+    font-family: Serif-bold, serif;
   }
   .h-s {
     font-size: 20px;
     text-decoration-color: #141423;
+    font-family: Serif-bold, serif;
   }
   .h-xs {
     font-size: 16px;
+    font-family: Serif-bold, serif;
   }
 
 
   .Header {
-    width: 1010px;
-
+    width: 1060px;
     box-sizing: border-box;
     position: absolute;
     left: 0;
@@ -54,8 +56,6 @@ root{
   .header-logo {
     display: flex;
     align-items: center;
-
-    color: #141423;
     flex-direction: row;
     font-family: Raleway,sans-serif;
     font-weight: 700;
@@ -72,26 +72,22 @@ root{
   }
   .header-button {
     font-family: Serif-regular,serif;
-    cursor: pointer;
     font-size: 16px;
+    cursor: pointer;
     padding: 13px 7px;
-    transition: all .3s linear;
     border: 1.5px solid #141423;
     text-transform: uppercase;
+
+    transition-duration: 0.4s;
   }
   .header-button:hover {
     color: #A7A7B1;
     border: 1.5px solid #A7A7B1;
+    text-transform: lowercase;
   }
 
 
   .Page-container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1440px;
-
     box-sizing: border-box;
     margin: 0 auto;
     min-height: 100vh;
@@ -101,7 +97,7 @@ root{
     align-items: center;
     text-align: center;
     width: 1440px;
-    padding-bottom: 43px;
+    padding-bottom: 40px;
   }
 
 
@@ -116,13 +112,11 @@ root{
     padding: 0 189px 100px;
     min-height: 700px;
     width: 1060px;
-
   }
   .intro-container {
     text-align: left;
     margin: 30px 0;
     width: 1060px;
-
   }
   .intro-scrollpoint {
     text-align: left;
@@ -140,12 +134,10 @@ root{
   }
 
 
-
   .About {
     text-align: left;
     width: 1060px;
     padding: 50px 190px 0;
-
     animation: ShowMe 3s;
   }
   .about-container {
@@ -173,18 +165,15 @@ root{
   }
 
 
-
   .Expertises {
     text-align: left;
     width: 1060px;
     padding: 50px 190px 0;
-
     animation: ShowMe 3s;
   }
   .expertises-container {
     grid-gap: 10px;
     text-align: center;
-
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -200,64 +189,44 @@ root{
   }
   .expertises-slide-style1 {
     background: #A7A7B1;
-
     align-items: center;
     display:flex;
-
     min-width: 200px;
     min-height: 200px;
-
     flex-direction: column;
   }
   .expertises-slide-style2 {
     background: #D3D3D8;
-
     align-items: center;
     display:flex;
-
     min-width: 200px;
     min-height: 200px;
-
     flex-direction: column;
   }
   .expertises-slide-style3 {
     background: rgba(211, 211, 216, 0.5);
-
     align-items: center;
     display:flex;
-
     min-width: 200px;
     min-height: 200px;
-
     flex-direction: column;
   }
   .expertises-slide-style4 {
     background: rgba(211, 211, 216, 0.25);
-
     align-items: center;
     display:flex;
-
     min-width: 200px;
     min-height: 200px;
-
     flex-direction: column;
   }
-
-
-
-
-
 
 
   .Trust {
     text-align: left;
     width: 1060px;
     padding: 50px 190px 0;
-
     animation: ShowMe 3s;
-
     flex-direction: column;
-
   }
   .trust-partners {
     display: grid;
@@ -266,9 +235,10 @@ root{
     padding-bottom: 80px;
   }
   .trust-partner {
-    flex: 0 1 150px;
     filter: grayscale(100%);
     transition: all 0.5s ease;
+
+    flex: 0 1 150px;
   }
   .trust-partner:hover {
     -webkit-filter: grayscale(0%);
@@ -278,16 +248,16 @@ root{
   .trust-reviews {
     grid-gap: 40px;
     text-align: center;
-
-    display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
+
+    display: flex;
   }
   .trust-review {
-    display:flex;
     transition: transform .2s;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
   }
   .trust-review:hover {
     -ms-transform: scale(1.1); /* IE 9 */
@@ -296,22 +266,16 @@ root{
   }
 
 
-
-
-
-
   .Contacts {
     text-align: left;
     width: 1060px;
     padding: 50px 190px 0;
-
     animation: ShowMe 3s;
   }
   #contacts-container {
     color: #141423;
     text-align: left;
     justify-content: space-between;
-
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -331,6 +295,7 @@ root{
   .mailme-container {
     flex-direction: row;
     display: flex;
+    margin-bottom: 30px;
   }
   .mailme-input {
 
@@ -348,19 +313,18 @@ root{
 
   }
   .mailme-check {
-
+    border: 1.5px solid red;
+    width: 40px;
+    border-radius: 2px;
   }
   .mailme-check-label {
     color: #141423;
     text-align: left;
     font-family: Serif-regular,serif;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 20px;
     cursor: pointer;
     user-select: none;
   }
-
-  
   .contacts-watermark {
     font-size: 16px;
     color: #141423;
@@ -369,24 +333,6 @@ root{
     padding-top: 100px;
     margin-bottom: -30px;
   }
-
-
-
-/*
-@media (max-width: 770px) {
-безразличие
-}
-
-@media (max-width: 360px) {
-
-
-}*/
-
-
-
-
-
-
 
 
 @keyframes MoveUpDown {
@@ -408,3 +354,19 @@ root{
     transform: translateX(0);
   }
 }
+
+
+@media (max-width: 770px) {
+  .trust-partners {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 700px;
+  }
+}
+
+@media (max-width: 360px) {
+  .trust-partners {
+    grid-template-columns: 1fr 1fr;
+    width: 280px;
+  }
+}
+
