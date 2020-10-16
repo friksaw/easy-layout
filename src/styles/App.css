@@ -121,7 +121,15 @@ root{
     display: flex;
     flex-direction: column;
   }
-  .about-post {
+  .about-post0 {
+    color: #141423;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 80px;
+  }
+  .about-post1 {
     color: #141423;
     text-align: left;
     display: flex;
@@ -440,10 +448,11 @@ root{
     width: 280px;
     margin-top: 50px;
   }
-  .about-post {
-    display: flex;
-    align-items: center;
+  .about-post0 {
     flex-direction: column;
+  }
+  .about-post1 {
+    flex-direction: column-reverse;
   }
   .about-description-container {
     margin-left: 20px;
@@ -476,8 +485,6 @@ root{
   }
   .trust-review-img {
     width: 200px;
-
-
   }
   .Expertises {
     width: 280px;

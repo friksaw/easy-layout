@@ -7,7 +7,7 @@ const About = () => (
             О нас
         </h2>
         <div className="about-container">
-            <div className="about-post">
+            <div className="about-post0">
                 <img src="https://nvrsk-expert.ru/_nuxt/430355fa3be1c2ae8bc14d6c63fd7a7f.svg" className="about-img1"/>
                 <div className="about-description-container">
                     <h3>
@@ -18,7 +18,7 @@ const About = () => (
                     </p>
                 </div>
             </div>
-            <div className="about-post">
+            <div className="about-post1">
                 <div className="about-description-container">
                     <h3>
                         Зона работы в работе
@@ -29,7 +29,7 @@ const About = () => (
                 </div>
                 <img src="https://nvrsk-expert.ru/_nuxt/8bdedb8afe1bab56daf3d408f776140d.svg" className="about-img1"/>
             </div>
-            <div className="about-post">
+            <div className="about-post0">
                 <img src="https://nvrsk-expert.ru/_nuxt/ebde157036a0d13e41c73b71c13ff55e.svg" className="about-img"/>
                 <div className="about-description-container">
                     <h3>
@@ -40,7 +40,7 @@ const About = () => (
                     </p>
                 </div>
             </div>
-            <div className="about-post">
+            <div className="about-post1">
                 <div className="about-description-container">
                     <h3>
                         Осуществляем более чем 35 видов экспертиз
