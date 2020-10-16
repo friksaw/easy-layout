@@ -7,7 +7,7 @@ import ScrollSVG from "../components/ScrollSVG";
 const Intro = () => (
     <div className="Intro">
         <div className="intro-container">
-            <h1>
+            <h1 className="intro-h">
                 <br/>Мы -
                 <br/>независимые
                 <br/>эксперты

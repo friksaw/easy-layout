@@ -13,7 +13,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-      <div>
+      <div className="root">
           <Header/>
           <div className="Page-container">
               <Intro/>
