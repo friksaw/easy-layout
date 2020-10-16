@@ -39,17 +39,17 @@ const Trust = () => (
                     <div className="trust-review">
                         <img src={img} className="trust-review-img"/>
                     </div>
-                    <div className="trust-review" className="trust-review-img">
-                        <img src={img}/>
+                    <div className="trust-review">
+                        <img src={img} className="trust-review-img"/>
                     </div>
-                    <div className="trust-review" className="trust-review-img">
-                        <img src={img}/>
+                    <div className="trust-review">
+                        <img src={img} className="trust-review-img"/>
                     </div>
-                    <div className="trust-review" className="trust-review-img">
-                        <img src={img}/>
+                    <div className="trust-review">
+                        <img src={img} className="trust-review-img"/>
                     </div>
-                    <div className="trust-review" className="trust-review-img">
-                        <img src={img}/>
+                    <div className="trust-review">
+                        <img src={img} className="trust-review-img"/>
                     </div>
                 </div>
             </div>

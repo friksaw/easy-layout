@@ -27,7 +27,7 @@ const About = () => (
                         Осуществляем экспертизы в Новороссийске, Анапе, Геленджике - по всему Краснодарскому краю страны
                     </p>
                 </div>
-                <img src="https://nvrsk-expert.ru/_nuxt/8bdedb8afe1bab56daf3d408f776140d.svg" className="about-img"/>
+                <img src="https://nvrsk-expert.ru/_nuxt/8bdedb8afe1bab56daf3d408f776140d.svg" className="about-img1"/>
             </div>
             <div className="about-post">
                 <img src="https://nvrsk-expert.ru/_nuxt/ebde157036a0d13e41c73b71c13ff55e.svg" className="about-img"/>
