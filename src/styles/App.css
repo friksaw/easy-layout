@@ -121,7 +121,7 @@ root{
     display: flex;
     flex-direction: column;
   }
-  .about-post0 {
+  .about-post-normal {
     color: #141423;
     text-align: left;
     display: flex;
@@ -129,7 +129,7 @@ root{
     flex-direction: row;
     margin-top: 80px;
   }
-  .about-post1 {
+  .about-post-reverse {
     color: #141423;
     text-align: left;
     display: flex;
@@ -172,7 +172,7 @@ root{
   .expertises-text {
     font-size: 20px;
   }
-  .expertises-slide-style1 {
+  .expertises-slide-color1 {
     background: #A7A7B1;
     align-items: center;
     display:flex;
@@ -180,7 +180,7 @@ root{
     min-height: 200px;
     flex-direction: column;
   }
-  .expertises-slide-style2 {
+  .expertises-slide-color2 {
     background: #D3D3D8;
     align-items: center;
     display:flex;
@@ -188,7 +188,7 @@ root{
     min-height: 200px;
     flex-direction: column;
   }
-  .expertises-slide-style3 {
+  .expertises-slide-color3 {
     background: rgba(211, 211, 216, 0.5);
     align-items: center;
     display:flex;
@@ -196,7 +196,7 @@ root{
     min-height: 200px;
     flex-direction: column;
   }
-  .expertises-slide-style4 {
+  .expertises-slide-color4 {
     background: rgba(211, 211, 216, 0.25);
     align-items: center;
     display:flex;
@@ -448,10 +448,10 @@ root{
     width: 280px;
     margin-top: 50px;
   }
-  .about-post0 {
+  .about-post-normal {
     flex-direction: column;
   }
-  .about-post1 {
+  .about-post-reverse {
     flex-direction: column-reverse;
   }
   .about-description-container {
