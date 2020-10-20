@@ -11,8 +11,8 @@ const About = () => (
 
             {
                 data[0].about.map((about) =>
-                    <div className="about-post1">
-                        <img src={about.image} className="about-img1"/>
+                    <div className={"about-post" + about.style}>
+                        <img src={about.image} className={"about-img" + about.imgStyle}/>
                         <div className="about-description-container">
                             <h3>
                                 {about.title}
@@ -24,6 +24,7 @@ const About = () => (
                     </div>
                 )
             }
+
         </div>
     </div>
 )

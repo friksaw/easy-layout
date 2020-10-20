@@ -134,7 +134,7 @@ root{
     text-align: left;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-top: 80px;
   }
   .about-description-container {
