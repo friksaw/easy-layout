@@ -10,7 +10,6 @@ const Expertise = () => (
                     Осуществляемые экспертизы
                 </h2>
                 <div data-flickity-options='{ "wrapAround": true }' className="expertises-container">
-
                     {
                         data[2].expertises.map((expertise) =>
                             <div className={"expertises-slide-style" + expertise.style}>

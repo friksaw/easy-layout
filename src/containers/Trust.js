@@ -1,6 +1,6 @@
 import logo from "../images/logo.svg";
 import React from "react";
-import img from "../images/trust-review.PNG";
+import data from "../data";
 
 
 const Trust = () => (
@@ -36,21 +36,13 @@ const Trust = () => (
                 </div>
 
                 <div data-flickity-options='{ "wrapAround": true }' className="trust-reviews">
-                    <div className="trust-review">
-                        <img src={img} className="trust-review-img"/>
-                    </div>
-                    <div className="trust-review">
-                        <img src={img} className="trust-review-img"/>
-                    </div>
-                    <div className="trust-review">
-                        <img src={img} className="trust-review-img"/>
-                    </div>
-                    <div className="trust-review">
-                        <img src={img} className="trust-review-img"/>
-                    </div>
-                    <div className="trust-review">
-                        <img src={img} className="trust-review-img"/>
-                    </div>
+                    {
+                        data[1].certificates.map((certificate) =>
+                            <div className="trust-review">
+                                <img src={certificate.certificate} className="trust-review-img"/>
+                            </div>
+                        )
+                    }
                 </div>
             </div>
 )

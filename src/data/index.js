@@ -35,24 +35,24 @@ const data = [
     {certificates:
         [
             {
+                id: 1,
+                certificate: "https://sun9-21.userapi.com/Y5hu4upAzio5IGmwRtfiZR4v3a0Dp3AWW3T7Bw/ovSoXdXsATY.jpg",
+            },
+            {
                 id: 2,
-                certificate: "images/unnamed.jpg",
+                certificate: "https://sun9-21.userapi.com/Y5hu4upAzio5IGmwRtfiZR4v3a0Dp3AWW3T7Bw/ovSoXdXsATY.jpg",
             },
             {
                 id: 3,
-                certificate: "images/d7ee299077613ded2157fedd844ea59f.jpg",
+                certificate: "https://sun9-21.userapi.com/Y5hu4upAzio5IGmwRtfiZR4v3a0Dp3AWW3T7Bw/ovSoXdXsATY.jpg",
             },
             {
                 id: 4,
-                certificate: "images/984d6fd0124e4da03133fdd7adbbb638.jpg",
+                certificate: "https://sun9-21.userapi.com/Y5hu4upAzio5IGmwRtfiZR4v3a0Dp3AWW3T7Bw/ovSoXdXsATY.jpg",
             },
             {
                 id: 5,
-                certificate: "images/0194566dc6ad8d916a86d110dbf9bc0a.jpg",
-            },
-            {
-                id: 7,
-                certificate: "images/7b3dd192475a4a23b4f5f4f9e2a6ea5b.jpg",
+                certificate: "https://sun9-21.userapi.com/Y5hu4upAzio5IGmwRtfiZR4v3a0Dp3AWW3T7Bw/ovSoXdXsATY.jpg",
             }
         ],
     },
@@ -129,38 +129,29 @@ const data = [
     {logos:
         [
             {id:1,
-                logo:"images/лого1.svg",
+                href:"https://admin.nvrsk-expert.ru/images/images/лого1.svg",
             },
             {id:3,
-                logo:"images/лого2.svg",
+                href:"https://admin.nvrsk-expert.ru/images/images/лого2.svg",
             },
             {id:4,
-                logo:"images/лого3.svg",
+                href:"https://admin.nvrsk-expert.ru/images/images/лого3.svg",
             },
             {id:5,
-                logo:"images/лого4.svg",
+                href:"https://admin.nvrsk-expert.ru/images/images/лого4.svg",
             },
             {id:6,
-                logo:"images/лого5.svg",
+                href:"https://admin.nvrsk-expert.ru/images/images/лого5.svg",
             },
             {id:8,
-                logo:"images/лого7.svg",
+                href:"https://admin.nvrsk-expert.ru/images/images/лого7.svg",
             },
             {id:9,
-                logo:"images/лого8.svg",
+                href:"https://admin.nvrsk-expert.ru/images/images/лого8.svg",
             },
             {id:10,
-                logo:"images/лого9.svg",
+                href:"https://admin.nvrsk-expert.ru/images/images/лого9.svg",
             },
-            {id:15,
-                logo:"images/936a99b202617df0149cdc1f31a6c0f9.png",
-            },
-            {id:17,
-                logo:"images/Снимок экрана от 2020-09-24 16-26-50.png",
-            },
-            {id:18,
-                logo:"images/5.png",
-            }
         ]
     }
 ];
