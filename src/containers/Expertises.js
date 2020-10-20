@@ -1,8 +1,9 @@
 import logo from "../images/logo.svg";
 import React from "react";
 import ButtonsNextBlock from "../components/ButtonsNextBlock";
+import data from "../data";
 
-//TODO: ButtonsNextBlock/> after expertises-container
+
 const Expertise = () => (
             <div className="Expertises">
                 <h2>
@@ -52,7 +53,7 @@ const Expertise = () => (
                         </p>
                     </div>
                     <div className="expertises-slide-style4">
-                        <img className="expertises-img" src="https://admin.nvrsk-expert.ru/images/images/бух.svg" alt="Бухгалтерская" />
+                        <img className="expertises-img" src="https://admin.nvrsk-expert.ru/images/images/бух.svg"/>
                         <p className="expertises-text">
                             Бухгалтерская
                         </p>
@@ -75,6 +76,17 @@ const Expertise = () => (
                             Автороведческая
                         </p>
                     </div>
+
+                    {
+                        data[2].expertises.map((expertise) =>
+                            <div className="expertises-slide-style1">
+                                <img className="expertises-img" src={expertise.image}/>
+                                <p className="expertises-text">
+                                    {expertise.title}
+                                </p>
+                            </div>
+                        )
+                    }
                 </div>
             </div>
 )
