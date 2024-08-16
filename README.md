@@ -1,7 +1,4 @@
 ## easy-layout
-
-"Это грязный код, но это честная работа", - Шекспир.
-
 ![Screenshot](https://sun9-21.userapi.com/Ty8vHzu0oBGdNf8GzqhcH7qYzpS6JkE0XeEBhQ/mApx8InNwOo.jpg)
 
 Адаптивность здесь работает так - есть брейкпоинты (@media-запросы эти), они изменяют width'ы и row меняют на column.
